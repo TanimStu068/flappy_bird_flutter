@@ -1,0 +1,38 @@
+name: flappy_bird
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flame: ^1.32.0
+  shared_preferences: ^2.5.3
+  flame_audio: ^2.11.11
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/music/
+    - assets/icon/flappy_bird_icon.png
+
+# FLUTTER LAUNCHER ICON CONFIGURATION
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/flappy_bird_icon.png"
+  adaptive_icon_background: "#43A047"
+  adaptive_icon_foreground: "assets/icon/flappy_bird_icon.png"
