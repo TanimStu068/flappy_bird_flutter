@@ -1,16 +1,31 @@
-# flappy_bird
+# 🐦 Flappy Bird Clone (Flutter)
 
-A new Flutter project.
+A simple yet fun **Flappy Bird** clone built entirely with **Flutter** and **Flame Engine**.  
+This project demonstrates how to use Flutter for **2D game development**, combining smooth animation, collision detection, and sound effects to recreate the classic Flappy Bird experience.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎮 Game Features
+- 🌤️ Beautiful background with sky, clouds, and grass
+- 🐤 Smooth bird animations and gravity physics
+- 🚧 Randomly generated pipes for endless gameplay
+- 🔊 Background music and sound effects (jump & hit)
+- 🧮 Live score tracking
+- 🪶 Simple tap-to-play controls
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Flutter** (UI & logic)
+- **Flame Engine** (game loop, sprites, physics)
+- **Flame Audio** (sound effects)
+- **Dart** language
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone git@github.com:TanimStu068/flappy_bird_flutter.git
+cd flappy_bird_flutter
